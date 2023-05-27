@@ -189,3 +189,10 @@ This project uses BrowserSync as static server with enabled and configured live 
 ## License
 
 [MIT](https://github.com/website-templates/design-studio_one-page-template/blob/master/LICENSE.md)
+
+
+
+git status
+git add .
+git commit -m "init"
+git push
