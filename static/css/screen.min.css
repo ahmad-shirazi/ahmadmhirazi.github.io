@@ -381,142 +381,143 @@ body {
     }
     
 .page-header__nav li {
-display: inline-block;
-margin-left: 5px;
+    display: inline-block;
+    margin-left: 5px;
 }
 
 .page-header__nav-link {
-display: inline-block;
-font-size: 14px;
-text-transform: uppercase;
-padding: 10px;
--webkit-transition: background-color .2s;
--o-transition: background-color .2s;
-transition: background-color .2s;
-color: #424242;
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px;
+    -webkit-transition: background-color .2s;
+    -o-transition: background-color .2s;
+    transition: background-color .2s;
+    color: #424242;
 }
 
 .page-header__nav-link:hover,
 .page-header__nav-link.is-active {
-background-color: #1bbc9b;
-color: #fff;
+    background-color: #1bbc9b;
+    color: #fff;
 }
 
 .page-footer {
-width: 100%;
-min-height: 85px;
-padding-bottom: 30px;
-background-color: #2d3e50;
-}
+    width: 100%;
+    min-height: 85px;
+    padding-bottom: 30px;
+    background-color: #2d3e50;
+    }
 
 .page-footer__inner {
-max-width: 1024px;
-margin: 0 auto;
+    max-width: 1024px;
+    margin: 0 auto;
 }
 
 .page-footer__inner:after {
-content: '';
-display: table;
-clear: both;
+    content: '';
+    display: table;
+    clear: both;
 }
 
 .page-footer__copyright {
-display: inline-block;
-margin: 35px 0 0 45px;
-font-size: 14px;
-color: #fff;
+    display: inline-block;
+    margin: 35px 0 0 45px;
+    font-size: 14px;
+    color: #fff;
 }
 
 .page-footer__gotop {
-display: block;
-float: right;
-width: 45px;
-height: 45px;
-margin: 20px 45px 0 0;
-font-size: 0;
-text-align: center;
-overflow: hidden;
-background-color: #1bbc9b;
-color: transparent;
--webkit-transition: all .5s;
--o-transition: all .5s;
-transition: all .5s;
+    display: block;
+    float: right;
+    width: 45px;
+    height: 45px;
+    margin: 20px 45px 0 0;
+    font-size: 0;
+    text-align: center;
+    overflow: hidden;
+    background-color: #1bbc9b;
+    color: transparent;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
 }
 
 .page-footer__gotop:hover {
-background-color: #158f76;
+    background-color: #158f76;
 }
 
 .page-footer__gotop:before {
-font-size: 20px;
-line-height: 45px;
-font-family: FontAwesome;
-content: "\f077";
-color: #fff;
+    font-size: 20px;
+    line-height: 45px;
+    font-family: FontAwesome;
+    content: "\f077";
+    color: #fff;
 }
 
 .portfolio {
-width: 100%;
-min-height: 680px;
-padding-top: 50px;
-background-color: #fff;
-text-align: center;
+    width: 100%;
+    min-height: 680px;
+    padding-top: 50px;
+    background-color: #fff;
+    text-align: center;
 }
 
 .portfolio__inner {
-max-width: 1024px;
-margin: 0 auto;
+    max-width: 1024px;
+    margin: 0 auto;
 }
 
 .portfolio__inner:after {
-content: '';
-display: table;
-clear: both;
+    content: '';
+    display: table;
+    clear: both;
 }
 
 .portfolio__title {
-font-size: 28px;
-font-weight: 400;
-margin-bottom: 10px;
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 10px;
 }
 
 .portfolio__descr {
-font-size: 14px;
-font-weight: 400;
-margin-bottom: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 40px;
 }
 
 .portfolio__filter li {
-display: inline-block;
-margin: 0 10px;
-cursor: pointer;
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
 }
 
 .portfolio__filter-btn {
-display: inline-block;
-font-size: 14px;
-text-transform: uppercase;
-padding: 10px;
-color: #fff;
-background-color: #1bbc9b;
--webkit-transition: background-color .2s;
--o-transition: background-color .2s;
-transition: background-color .2s;
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px;
+    color: #fff;
+    background-color: #1bbc9b;
+    -webkit-transition: background-color .2s;
+    -o-transition: background-color .2s;
+    transition: background-color .2s;
 }
 
 .portfolio__filter-btn:hover,
 .portfolio__filter-btn.is-selected {
-background-color: #158f76;
+    background-color: #158f76;
 }
 
 .portfolio__content {
-margin: 45px auto 60px;
+    margin: 45px auto 60px;
 }
 
 .portfolio__item {
-position: relative;
-display: inline-block;
-width: 180px}
+    position: relative;
+    display: inline-block;
+    width: 180px
+}
 
 .portfolio__item {
     position: relative;

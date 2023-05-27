@@ -4,7 +4,7 @@ Flat and responsive website template, designed by [cssauthor](http://www.cssauth
 
 Demo: [http://website-templates.github.io/design-studio_one-page-template](http://website-templates.github.io/design-studio_one-page-template/)
 
-![Mockup demo](screenshots/pic.jpg)
+![Mockup demo](screenshots/pic.png)
 Product mockup created with [http://frame.lab25.co.uk/](http://frame.lab25.co.uk/)
 
 ## Contents
