@@ -363,8 +363,8 @@ body {
 
 .page-header__logo{
     float:left;
-    height:150px;
-    margin:65px 0 0 40px;
+    height:50px;
+    margin:25px 0 0 40px;
     padding:5px 0 0 65px;
     background:url(../images/logo.png) 0 center no-repeat}
 .page-header__logo h1{
