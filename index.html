@@ -24,8 +24,9 @@
                 <li><a class="page-header__nav-link js-anchor js-link" href="#gallery">Gallery</a></li>
                 <li><a class="page-header__nav-link js-anchor js-link" href="#portfolio">Services</a></li>
                 <li><a class="page-header__nav-link js-anchor js-link" href="#booking">Booking</a></li>
+                <li><a class="page-header__nav-link js-anchor js-link" href="#faqs">FAQs</a></li>     
                 <li><a class="page-header__nav-link js-anchor js-link" href="#contact">Contact</a></li>                
-                <li><a class="page-header__nav-link js-anchor js-link" href="#faqs">FAQs</a></li>                
+           
             </ul>
             </nav>
             </div>
@@ -103,6 +104,21 @@
                 <a class="services__go-next js-anchor" href="#portfolio">See Our Work</a>
             </section> -->
             
+            <!-- Gallery section -->
+            <section class="gallery" id="gallery">
+                <div class="gallery__inner">
+                    <h2 class="gallery__title">Gallery</h2>
+                    <p class="gallery__descr">Get a glimpse of our lessons, events, and achievements through our curated collection of photos and videos.</p>
+                    <div class="gallery__content">
+                        <img class="gallery__img" src="static/images/gallery1.jpg" alt="Gallery Image 1">
+                        <img class="gallery__img" src="static/images/gallery2.jpg" alt="Gallery Image 2">
+                        <img class="gallery__img" src="static/images/gallery3.jpg" alt="Gallery Image 3">
+                    </div>
+                </div>
+            </section>
+
+
+
 
 
             <!-- $Portfolio section-->
@@ -153,32 +169,32 @@
                     <li class="portfolio__item js-item" data-cat="all graphic flat">
                         <a href="#"><img class="portfolio__item-img js-lazy" src="static/images/port6.png" alt="">
                             <div class="portfolio__item-caption">
-                                <span class="portfolio__item-title">Example title</span>
-                                <span class="portfolio__item-cat">Flat design</span>
+                                <span class="portfolio__item-title">Music Theory Lessons</span>
+                                <span class="portfolio__item-cat">Book a Lesson</span>
                             </div>
                         </a>
                     </li>
-                    <li class="portfolio__item js-item" data-cat="all web">
+                    <li class="portfolio__item js-item" data-cat="all graphic flat">
                         <a href="#"><img class="portfolio__item-img js-lazy" src="static/images/port5.png" alt="">
                             <div class="portfolio__item-caption">
-                                <span class="portfolio__item-title">Example title</span>
-                                <span class="portfolio__item-cat">Web design</span>
+                                <span class="portfolio__item-title">Beginner Singing Lesson</span>
+                                <span class="portfolio__item-cat">Book a Lesson</span>
                             </div>
                         </a>
                     </li>
-                    <li class="portfolio__item js-item" data-cat="all flat web">
+                    <!-- <li class="portfolio__item js-item" data-cat="all flat web">
                         <a href="#"><img class="portfolio__item-img js-lazy" src="static/images/port1.png" alt="">
                             <div class="portfolio__item-caption">
                                 <span class="portfolio__item-title">Example title</span>
                                 <span class="portfolio__item-cat">Flat design</span>
                             </div>
                         </a>
-                    </li>
-                    <li class="portfolio__item js-item" data-cat="all web">
+                    </li> -->
+                    <li class="portfolio__item js-item" data-cat="all graphic flat">
                         <a href="#"><img class="portfolio__item-img js-lazy" src="static/images/port2.png" alt="">
                             <div class="portfolio__item-caption">
-                                <span class="portfolio__item-title">Example title</span>
-                                <span class="portfolio__item-cat">Web design</span>
+                                <span class="portfolio__item-title">Intermediate Singing Lesson</span>
+                                <span class="portfolio__item-cat">Book a Lesson</span>
                             </div>
                         </a>
                     </li>
@@ -186,23 +202,81 @@
             </div>
         </section>
 
-        <!-- $Contact section-->
-        <section class="contact" id="contact">
-            <div class="contact__inner">
-                <h2 class="contact__title">Contact us</h2>
-                <p class="contact__descr">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-                <form class="contact__form" action="#" method="post">
-                    <input class="contact__form-input" id="name" type="text" name="name" placeholder="Your name"> 
-                    <input class="contact__form-input" id="email" type="email" name="email" placeholder="Your email"> 
-                    <textarea class="contact__form-tarea" id="message" name="message" placeholder="Your message"></textarea> 
-                    <input class="contact__form-submit" type="submit" value="Submit">
+
+
+        <!-- Booking section -->
+        <section class="booking" id="booking">
+            <div class="booking__inner">
+                <h2 class="booking__title">Book a Lesson</h2>
+                <p class="booking__descr">Ready to embark on your musical journey? Book a lesson with us today.</p>
+                <form class="booking__form" action="#" method="post">
+                    <input class="booking__form-input" id="name" type="text" name="name" placeholder="Your name"> 
+                    <input class="booking__form-input" id="email" type="email" name="email" placeholder="Your email"> 
+                    <textarea class="booking__form-tarea" id="details" name="details" placeholder="Details about preferred date and time"></textarea> 
+                    <input class="booking__form-submit" type="submit" value="Book Now">
                 </form>
-                <div class="contact__card vcard"><h3 class="contact__card-title">Information</h3>
-                    <div class="contact__card-item place">
-                        <div class="fn org">ROYSA Company</div>
-                        <div class="adr">
-                            <div class="street-address">12345 Hollywood Bvld Street</div>
-                            <span class="locality">Los Angeles</span>,<span class="region">California</span>
-                        </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+                    <!-- FAQs section -->
+        <section class="faqs" id="faqs">
+            <div class="faqs__inner">
+                <h2 class="faqs__title">Frequently Asked Questions</h2>
+                <p class="faqs__descr">Have a question? Find answers to the most frequently asked questions here.</p>
+                <div class="faqs__content">
+                    <div class="faqs__item">
+                        <h3 class="faqs__question">Question 1?</h3>
+                        <p class="faqs__answer">Answer to question 1.</p>
                     </div>
-                    <div class="contact__card-item tel">+444<span class="type">&nbsp;(Phone)&nbsp;</span>123456</div><div class="contact__card-item fax tel">+123<span class="type">&nbsp;(FAX)&nbsp;</span>0011223</div><a class="contact__card-item email" href="#">Aida@ROYSA.net</a></div></div></section><!-- $Page footer--><footer class="page-footer"><div class="page-footer__inner"><span class="page-footer__copyright">&copy; Copyright 2023 ROYSA | Your Gateway to Online Music Mastery</span><a class="page-footer__gotop js-anchor" href="#home">Go to top</a></div></footer><script src="static/js/body.min.js"></script></body></html>
+                    <div class="faqs__item">
+                        <h3 class="faqs__question">Question 2?</h3>
+                        <p class="faqs__answer">Answer to question 2.</p>
+                    </div>
+                    <div class="faqs__item">
+                        <h3 class="faqs__question">Question 3?</h3>
+                        <p class="faqs__answer">Answer to question 3.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+                <!-- $Contact section-->
+                <section class="contact" id="contact">
+                    <div class="contact__inner">
+                        <h2 class="contact__title">Contact us</h2>
+                        <p class="contact__descr">Ready to begin your musical journey? Get in touch with us. We're here to answer any questions you may have about our lessons, services, or anything music-related. Whether you're curious about lesson availability, costs, or just want to chat about your musical aspirations, don't hesitate to reach out. Our team at Roysa.net is dedicated to providing personalized, accessible music education for everyone. Reach out through email, phone, or the contact form below - we'd love to hear from you. Connect with us on social media for updates, special announcements, and a glimpse into our musical world.</p>
+                        <form class="contact__form" action="#" method="post">
+                            <input class="contact__form-input" id="name" type="text" name="name" placeholder="Your name"> 
+                            <input class="contact__form-input" id="email" type="email" name="email" placeholder="Your email"> 
+                            <textarea class="contact__form-tarea" id="message" name="message" placeholder="Your message"></textarea> 
+                            <input class="contact__form-submit" type="submit" value="Submit">
+                        </form>
+                        <div class="contact__card vcard"><h3 class="contact__card-title">Information</h3>
+                            <div class="contact__card-item place">
+                                <div class="fn org">ROYSA</div>
+                                <div class="adr">
+                                    <div class="street-address">United States</div>
+                                    <!-- <span class="locality">Los Angeles</span>,<span class="region">California</span> -->
+                                </div>
+                            </div>
+                            <div class="contact__card-item tel">+1<span class="type">&nbsp;(614)&nbsp;</span>1234567</div>
+                            <!-- <div class="contact__card-item fax tel">+123<span class="type">&nbsp;(FAX)&nbsp;</span>0011223</div> -->
+                            <a class="contact__card-item email" href="#">Aida@ROYSA.net</a></div></div></section>
+                            
+
+
+
+
+                            <!-- $Page footer-->
+            <footer class="page-footer"><div class="page-footer__inner"><span class="page-footer__copyright">&copy; Copyright 2023 ROYSA | Your Gateway to Online Music Mastery</span><a class="page-footer__gotop js-anchor" href="#home">Go to top</a></div></footer><script src="static/js/body.min.js"></script></body></html>

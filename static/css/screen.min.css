@@ -590,7 +590,417 @@ body {
     display: block;
     font-size: 15px;
     }
+
     
+
+    .booking {
+        width: 100%;
+        min-height: 680px;
+        padding-top: 50px;
+        background-color: #d28c8c;
+        text-align: center;
+    }
+    
+    .booking__inner {
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+    
+    .booking__inner:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+    
+    .booking__title {
+        font-size: 28px;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+    
+    .booking__descr {
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 40px;
+    }
+    
+    .booking__filter li {
+        display: inline-block;
+        margin: 0 10px;
+        cursor: pointer;
+    }
+    
+    .booking__filter-btn {
+        display: inline-block;
+        font-size: 14px;
+        text-transform: uppercase;
+        padding: 10px;
+        color: #fff;
+        background-color: #1bbc9b;
+        -webkit-transition: background-color .2s;
+        -o-transition: background-color .2s;
+        transition: background-color .2s;
+    }
+    
+    .booking__filter-btn:hover,
+    .booking__filter-btn.is-selected {
+        background-color: #158f76;
+    }
+    
+    .booking__content {
+        margin: 45px auto 60px;
+    }
+    
+    .booking__item {
+        position: relative;
+        display: inline-block;
+        width: 180px;
+        height: 180px;
+        margin: 0 30px 35px;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    
+    .booking__item.is-hidden {
+        display: none;
+    }
+    
+    .booking__item-img {
+        display: inline-block;
+        height: 100%;
+        margin: 0 auto;
+    }
+    
+    .booking__item-caption {
+        visibility: hidden;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        padding-top: 35px;
+        background-color: #1bbc9b;
+        background-color: rgba(27, 188, 155, .8);
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        color: #fff;
+        opacity: 0;
+        -webkit-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;
+    }
+    
+    .booking__item:hover .booking__item-caption {
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .booking__item-title{
+        display:block;
+        font-size:18px;
+        margin-bottom:10px;
+    }
+    
+    .booking__item-title:before{
+        content:"\f002";
+        -webkit-box-sizing:border-box;
+        box-sizing:border-box;
+        display:block;
+        width:40px;
+        height:40px;
+        -webkit-border-radius:50%;
+        border-radius:50%;
+        margin:0 auto 20px;
+        padding-top:10px;
+        background-color:#ccc;
+        background-color:rgba(0,0,0,.5);
+        font-family:FontAwesome;
+        text-align:center;
+    }
+    
+    .booking__item-cat {
+        display: block;
+        font-size: 15px;
+    }
+    
+
+
+
+    .gallery {
+        width: 100%;
+        min-height: 680px;
+        padding-top: 50px;
+        background-color: #d7cccc;
+        text-align: center;
+    }
+    
+    .gallery__inner {
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+    
+    .gallery__inner:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+    
+    .gallery__title {
+        font-size: 28px;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+    
+    .gallery__descr {
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 40px;
+    }
+    
+    .gallery__filter li {
+        display: inline-block;
+        margin: 0 10px;
+        cursor: pointer;
+    }
+    
+    .gallery__filter-btn {
+        display: inline-block;
+        font-size: 14px;
+        text-transform: uppercase;
+        padding: 10px;
+        color: #fff;
+        background-color: #1bbc9b;
+        -webkit-transition: background-color .2s;
+        -o-transition: background-color .2s;
+        transition: background-color .2s;
+    }
+    
+    .gallery__filter-btn:hover,
+    .gallery__filter-btn.is-selected {
+        background-color: #158f76;
+    }
+    
+    .gallery__content {
+        margin: 45px auto 60px;
+    }
+    
+    .gallery__item {
+        position: relative;
+        display: inline-block;
+        width: 180px;
+        height: 180px;
+        margin: 0 30px 35px;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    
+    .gallery__item.is-hidden {
+        display: none;
+    }
+    
+    .gallery__item-img {
+        display: inline-block;
+        height: 100%;
+        margin: 0 auto;
+    }
+    
+    .gallery__item-caption {
+        visibility: hidden;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        padding-top: 35px;
+        background-color: #1bbc9b;
+        background-color: rgba(27, 188, 155, .8);
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        color: #fff;
+        opacity: 0;
+        -webkit-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;
+    }
+    
+    .gallery__item:hover .gallery__item-caption {
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .gallery__item-title {
+        display: block;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    
+    .gallery__item-title:before {
+        content: "\f002";
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        display: block;
+        width: 40px;
+        height: 40px;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        margin: 0 auto 20px;
+        padding-top: 10px;
+        background-color: #ccc;
+        background-color: rgba(0,0,0,.5);
+        font-family: FontAwesome;
+        text-align: center;
+    }
+    
+    .gallery__item-cat {
+        display: block;
+        font-size: 15px;
+    }
+    
+
+
+
+    .faqs {
+        width: 100%;
+        min-height: 680px;
+        padding-top: 50px;
+        background-color: #fff;
+        text-align: center;
+    }
+    
+    .faqs__inner {
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+    
+    .faqs__inner:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+    
+    .faqs__title {
+        font-size: 28px;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+    
+    .faqs__descr {
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 40px;
+    }
+    
+    .faqs__filter li {
+        display: inline-block;
+        margin: 0 10px;
+        cursor: pointer;
+    }
+    
+    .faqs__filter-btn {
+        display: inline-block;
+        font-size: 14px;
+        text-transform: uppercase;
+        padding: 10px;
+        color: #fff;
+        background-color: #1bbc9b;
+        -webkit-transition: background-color .2s;
+        -o-transition: background-color .2s;
+        transition: background-color .2s;
+    }
+    
+    .faqs__filter-btn:hover,
+    .faqs__filter-btn.is-selected {
+        background-color: #158f76;
+    }
+    
+    .faqs__content {
+        margin: 45px auto 60px;
+    }
+    
+    .faqs__item {
+        position: relative;
+        display: inline-block;
+        width: 180px;
+        height: 180px;
+        margin: 0 30px 35px;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    
+    .faqs__item.is-hidden {
+        display: none;
+    }
+    
+    .faqs__item-img {
+        display: inline-block;
+        height: 100%;
+        margin: 0 auto;
+    }
+    
+    .faqs__item-caption {
+        visibility: hidden;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        padding-top: 35px;
+        background-color: #1bbc9b;
+        background-color: rgba(27, 188, 155, .8);
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        color: #fff;
+        opacity: 0;
+        -webkit-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;
+    }
+    
+    .faqs__item:hover .faqs__item-caption {
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .faqs__item-title {
+        display: block;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    
+    .faqs__item-title:before {
+        content: "\f002";
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        display: block;
+        width: 40px;
+        height: 40px;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        margin: 0 auto 20px;
+        padding-top: 10px;
+        background-color: #ccc;
+        background-color: rgba(0,0,0,.5);
+        font-family: FontAwesome;
+        text-align: center;
+    }
+    
+    .faqs__item-cat {
+        display: block;
+        font-size: 15px;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
 .promo {
     width: 100%;
     min-height: 655px;
