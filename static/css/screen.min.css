@@ -365,7 +365,7 @@ body {
     float:left;
     height:50px;
     margin:25px 0 0 40px;
-    padding:5px 0 0 65px;
+    padding:5px 0 0 155px;
     background:url(../images/logo.png) 0 center no-repeat}
 .page-header__logo h1{
     font-size:20px;
@@ -593,9 +593,9 @@ body {
     
 .promo {
     width: 100%;
-    min-height: 455px;
+    min-height: 655px;
     padding: 70px 0;
-    background: #323232 url(../images/promo-bg.jpg) center 0 no-repeat;
+    background: #323232 url(../images/promo-bg.png) center 0 no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
     background-size: cover;
